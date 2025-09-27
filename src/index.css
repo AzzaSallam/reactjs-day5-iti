@@ -1,0 +1,51 @@
+*{
+  padding: 0 ;
+  margin: 0 ;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.mainColor{
+  color: #37353E;
+}
+
+.secondaryColor{
+  color: #715A5A;
+}
+
+.bg-secondary{
+  background-color: #715A5A;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.pointer:hover{
+  text-decoration: underline;
+}
+
+.product-card-img{
+  width: 200px;
+  height: 300px;
+}
+
+.card-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;   
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;   
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
