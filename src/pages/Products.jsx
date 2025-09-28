@@ -56,7 +56,7 @@ const Products = () => {
 
   return (
     <div className="row text-center">
-        {products.map((product) => (
+        {products?.map((product) => (
           <div className="col-md-4 col-lg-3 mb-3 mx-auto" key={product.id}>
               <div className=" d-flex justify-content-center align-items-center">
                 <Card style={{ width: '20rem' }}>
